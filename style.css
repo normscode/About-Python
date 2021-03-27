@@ -1,0 +1,181 @@
+body *{
+    vertical-align: top;
+}
+div.container{
+    width: 970px;
+    min-height: 800px;
+    background-color:#2d4e78;
+    margin: 0px auto;
+}
+
+/**** GLOBAL StyLE ****/
+
+div.container section.links, article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/****** Header ******/
+
+div.container header{
+    padding: 10px 10px 0px 20px;
+    margin-bottom: 30px;
+}
+
+div.container header img{
+    width: 300px;
+    height: 90px;
+    margin-right: 340px;
+    margin-top: 5px;
+}
+
+div.container header img,div.search-section{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+div.container header p{
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+header div.box{
+    width: 280px;
+    height: 50px;
+    padding-top: 20px;
+    background-color: rgb(78, 78, 78);
+    text-align: center;
+    border-radius: 10px;
+    line-height: 45px;
+    box-shadow: black 3px 5px;
+}
+
+header div.box input{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    box-shadow: black 3px 5px;
+}
+
+header div.box button{
+    background-color: rgb(35, 83, 155);
+    width: 40px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: black 3px 5px;
+}
+
+/***** NAVIGATION BAR *****/
+
+nav{
+    width: 870px;
+    margin: 0px 0px 20px 70px;
+    
+    
+}
+nav ul{
+    text-align: center;
+    border-radius: 5px;
+    background-color:rgb(72, 97, 235);
+    padding: 5px 10px 5px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+    margin: 5px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+/* Section Left Side */
+
+div.container section.links{
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+section.links p{
+    line-height: 25px;
+}
+
+section.links p span.symbol{
+    font-size: 10px;
+    color: yellow;
+}
+
+section.links p a{
+    color: white;
+    font-size: 18px;
+}
+
+/* Right Side Section */
+
+div.container article{
+    width: 620px;
+    text-align: center;
+}
+    div.container article p{
+        color: white;
+    }
+
+        div.container article div.quote1 p{
+            color: yellow;
+            font-size: 20px;
+            margin: 10px;
+            font-style: italic;
+        }
+
+                div.container article p.zen{
+                    font-size: 18px;
+                    margin: 20px;
+                }
+
+
+/**** Getting Started & Applications****/
+
+div.container div.wrapper{
+    background-color: white;
+    width: 970px;
+    height: 300px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    div.wrapper section.mid-box{
+        display: inline-block;
+        padding: 10px;
+        width: 460px;
+        border-top: 3px solid blue;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+
+        div.wrapper section.mid-box div.bullet ul li p{
+            color: blue;
+        }
+
+footer.bottom{
+    width: 970px;
+    height: 130px;
+    background-color: #2d4e78;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+    footer.bottom ul li{
+            display: inline-block;
+            margin: 30px;
+        }
+
